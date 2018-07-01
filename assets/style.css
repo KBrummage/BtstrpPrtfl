@@ -1,0 +1,134 @@
+/* *{
+  border: red solid 1px !important;
+} */
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body{
+width: 100%;
+height: 100%;
+background-color: #d4d4d4;
+margin: 0;
+}
+
+
+
+.hdr{
+  padding: 0;
+  border-bottom: 1px solid #777777;
+  background-color: white;
+  margin-left: 0!important;
+  margin: auto!important;
+}
+
+.navbar{
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: #777777 solid 1px;
+
+}
+
+.navbar-nav{
+  align-items: flex-end;
+}
+
+#myNav{
+  align-items: flex-end;
+}
+
+.navbar-brand{
+  background-color: #4aaaa5!important;
+  padding-left: .3125rem;
+  padding-right: .3125rem;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+
+}
+
+.navbar-collapse{
+  margin-right: -20px;
+}
+
+.nav-item.active>a.nav-link{
+  color: #4aaaa5!important;
+  font-weight: 600;
+}
+
+.bdy{
+  margin: 50px auto;
+  background-color: white!important;
+  max-width: 1140px;
+  min-height: calc(100vh - 238px);
+  padding: 20px!important;
+
+}
+
+.AboutMe{
+  color: #4aaaa5!important;
+  border-bottom: #777777 solid 1px;
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+
+.Bio{
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+
+.selfshot{
+  /* float: left; */
+  max-width: 150px;
+  height: 200px;
+  margin: 15px;
+  
+}
+
+footer{
+  height: 69px;
+  background-color: whitesmoke;
+  border-top: #777777 solid 1px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* .Site-content{
+  display: flex;
+  height: calc(100vh-69px);
+} */
+
+.carousel{
+  margin: auto!important;
+ 
+}
+
+
+.carousel-inner{
+  margin: 10px auto;
+  max-height: 720px;
+  height: 100%;
+  width: auto!important;
+}
+
+.carousel-control-next-icon {
+
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232aaaa5' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
+
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232aaaa5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.row{
+  width: 100%!important;
+}
