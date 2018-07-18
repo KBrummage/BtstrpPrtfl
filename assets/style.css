@@ -30,7 +30,10 @@ margin: 0;
   border-bottom: #777777 solid 1px;
 
 }
-
+.d-block{
+  max-height: 720px;
+  width: auto!important;
+}
 .navbar-nav{
   align-items: flex-end;
 }
@@ -115,7 +118,7 @@ footer{
 .carousel-inner{
   margin: 10px auto;
   max-height: 720px;
-  height: 100%;
+  /* height: 100%; */
   width: auto!important;
 }
 
