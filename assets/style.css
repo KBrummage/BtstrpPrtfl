@@ -17,6 +17,15 @@ background-attachment: fixed;
 margin: 0;
 }
 
+#abtMe{
+  display: flex;
+  flex-grow: 1;
+}
+
+#prjcts{
+  display: flex;
+  flex-grow: 2;
+}
 
 
 .hdr{
@@ -26,7 +35,13 @@ margin: 0;
   margin-left: 0!important;
   margin: auto!important;
 }
-
+.chalkboard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 100vw;
+}
 .navbar{
   align-items: flex-end;
   justify-content: space-between;
@@ -67,25 +82,30 @@ margin: 0;
 }
 
 .bdy{
+  display: flex;
+  /* flex-wrap: wrap; */
   margin: 50px auto;
   background-color: white!important;
   max-width: 1140px;
-  min-height: calc(100vh - 238px);
+  /* min-height: calc(100vh - 238px); */
   padding: 20px!important;
 
 }
 
 .AboutMe{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   color: #4aaaa5!important;
   border-bottom: #777777 solid 1px;
   margin-right: 0!important;
   margin-left: 0!important;
 }
 
-.Bio{
+/* .Bio{
   margin-right: 0!important;
   margin-left: 0!important;
-}
+} */
 
 .selfshot{
   /* float: left; */
@@ -108,10 +128,13 @@ footer{
   width: 100%;
 }
 
-/* .Site-content{
+.Site-content{
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   height: calc(100vh-69px);
-} */
+}
 
 .carousel{
   margin: auto!important;
@@ -134,10 +157,6 @@ footer{
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232aaaa5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.row{
-  width: 100%!important;
 }
 
 hr {
